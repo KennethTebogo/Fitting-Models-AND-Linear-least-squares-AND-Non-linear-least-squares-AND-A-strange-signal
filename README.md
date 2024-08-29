@@ -1,4 +1,4 @@
-#Question 1: Fitting models
+# Question 1: Fitting models
 
 Fitting a model to data is a crucial skill for any modern scientist. In this prac, we will explore methods of model
 fitting starting with the least squares method.
@@ -17,7 +17,7 @@ method(s) could you use to minimise the sum of the residuals squared for any arb
 What are the parameters of that model (give the names or symbols not the values)? How are they estimated?
 Computational Physics 322
 
-#Question 2: Linear least squares
+# Question 2: Linear least squares
 
 Imagine you find a resistor and don’t know its value. Well since you’re a physicist, you realise that it’s easy to
 perform an experiment to figure it out! You apply a current to the resistor and measure the potential difference
@@ -77,7 +77,7 @@ you simply call plt.plot twice for the same figure, the first time plotting data
 the model for the same x-values. This should give you a quick visual indication of how well your model fits
 your data.
 
-#Question 3: Non-linear least squares
+# Question 3: Non-linear least squares
 
 Some objects don’t follow Ohm’s law. In particular, as the current that passes through a light bulb is increased,
 the light bulb gets hotter thus increasing its resistance. The file data2.csv contains more data1 , with the first
@@ -110,7 +110,7 @@ If you’re interested, this data comes from a real paper which investigated the
 I’m not sure why the authors thought this was interesting but I’m glad they did.
 Computational Physics 322
 
-#Question 4: A strange signal
+# Question 4: A strange signal
 
 I have provided you with a text file that contains a secret signal you need to decode. Every 1000 samples changes
 amplitude, the peak of the signal within those 1000 samples corresponds to a letter (see the plot below).
